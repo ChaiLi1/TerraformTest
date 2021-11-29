@@ -1,7 +1,6 @@
 # Configure the Microsoft Azure Provider
 terraform {
-  backend "remote" {
- required_providers {
+  required_providers {
     azurerm = {
       source = "hashicorp/azurerm"
       version = "~>2.0"
