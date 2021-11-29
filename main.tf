@@ -1,12 +1,6 @@
 # Configure the Microsoft Azure Provider
 terraform {
   backend "remote" {
-    organization = "DeloitteDigital"
-
-    workspaces {
-      name = "AzureVM"
-    }
-  }
  required_providers {
     azurerm = {
       source = "hashicorp/azurerm"
